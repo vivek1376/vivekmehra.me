@@ -50,11 +50,14 @@
 
         }
 
-        blockquote {
+        div#content {
             width: 700px;
             margin: 0 auto;
+        }
+
+        blockquote {
             font-family: tangerinebold;
-            font-size: 50px;
+            font-size: 54px;
             margin-top: 180px;
         }
 
@@ -66,19 +69,44 @@
             font-style: normal;
         }
 
+        @font-face {
+            font-family: 'simplifica';
+            src: url('files/fonts/simplifica_typeface-webfont.eot');
+            src: url('files/fonts/simplifica_typeface-webfont.eot?#iefix') format('embedded-opentype'), url('files/fonts/simplifica_typeface-webfont.woff') format('woff'), url('files/fonts/simplifica_typeface-webfont.ttf') format('truetype'), url('files/fonts/simplifica_typeface-webfont.svg#simplificasimplifica') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
+
+        p.quote {
+            margin: 10px 0;
+        }
+
         p.author {
             font-size: 28px;
             float: right;
         }
+
+        ul {
+            font-family: simplifica;
+            font-size: 36px;
+            text-transform: uppercase;
+            margin: 150px 60px;
+            color: #b2b2a2;
+        }
     </style>
 </head>
 <body>
+<div id="content">
 
+    <blockquote>
+        <p class="quote">"Imagination is more important than knowledge."</p>
 
-<blockquote><p>"Imagination is more important than knowledge."</p>
+        <p class="author">- Albert Einstein</p>
+    </blockquote>
 
-    <p class="author">- Albert Einstein</p></blockquote>
-
-<div id="button">Find</div>
+    <ul>
+        <li>projects</li>
+    </ul>
+</div>
 </body>
 </html>
