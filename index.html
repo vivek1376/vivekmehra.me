@@ -14,9 +14,20 @@
             font-style: normal;
 
         }
+        @font-face {
+            font-family: 'roboto_condensedlight';
+            src: url('files/fonts/RobotoCondensed-Light-webfont.eot');
+            src: url('files/fonts/RobotoCondensed-Light-webfont.eot?#iefix') format('embedded-opentype'),
+            url('files/fonts/RobotoCondensed-Light-webfont.woff') format('woff'),
+            url('files/fonts/RobotoCondensed-Light-webfont.ttf') format('truetype'),
+            url('files/fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
+            font-weight: normal;
+            font-style: normal;
+
+        }
 
         body {
-            background-image: url("files/slantnoisylines.png");
+            background-image: url("files/darkTexture.jpg");
         }
 
         p#banner {
@@ -53,12 +64,16 @@
         div#content {
             width: 700px;
             margin: 0 auto;
+            overflow: auto;
+            text-align: center; //for centering child floats
         }
 
         blockquote {
             font-family: tangerinebold;
             font-size: 54px;
-            margin-top: 180px;
+            margin-top: 150px;
+            color: #ddebff;
+            margin-bottom: 200px;
         }
 
         @font-face {
@@ -87,13 +102,59 @@
         }
 
         ul {
-            font-family: simplifica;
-            font-size: 36px;
+            font-family: roboto_condensedlight;
+            font-size: 24px;
             text-transform: uppercase;
             margin: 150px 60px;
-            color: #b2b2a2;
+            color: #787975;
+            margin: 0 auto;
+            overflow: auto;
+            display: inline-block;
+            z-index: 90;
+        }
+        a{
+            text-decoration: none;
+        }
+        ul li{
+            float: left;
+            padding: 10px 40px;
+        }
+        ul.main ul{
+            position: absolute;
+            font-size: 16px;
+            color: #c5c6c0;
+            padding-left: 120px;
+            padding-top: 100px;
+            display:none;
+            z-index: 100;
+        }
+        ul.main ul a{
+            color: white;
+        }
+        li.projects:hover ul{
+            display: block;
+        }
+        ul.prj:hover{
+            display: block;
+        }
+        a.phpchat{
+            background-image: url("files/textback.png");
         }
     </style>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            //$("li.projects:hover a").css({"display":"none"});
+
+            $("li.projects").hover(function(){
+                $("ul.prj").css({"display":"none"});
+                $("ul.prj").fadeIn(500);
+            },function(){
+                $("ul.prj").css({"display":"block"});
+                $("ul.prj").fadeOut(300);
+            });
+        });
+    </script>
 </head>
 <body>
 <div id="content">
@@ -104,8 +165,14 @@
         <p class="author">- Albert Einstein</p>
     </blockquote>
 
-    <ul>
-        <li>projects</li>
+    <ul class="main">
+        <li class="projects">projects
+            <ul class="prj">
+                <li><a class="phpchat" href="projects/phpchat">PHP chat</a></li>
+            </ul>
+        </li>
+        <li>stuff</li>
+        <li>about</li>
     </ul>
 </div>
 </body>
