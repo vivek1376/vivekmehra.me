@@ -6,6 +6,8 @@
  * Time: 11:45 PM
  */
 
+//this file defines functions for login functionality
+// remove magic quotes
 include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/magicquotes.inc.php';
 
 //$GLOBALS[]

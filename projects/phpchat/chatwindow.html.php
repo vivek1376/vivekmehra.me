@@ -37,6 +37,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
                 success: function (msgs) {
                     clearInterval(t);
 
+                    // send another request after approx 1 sec
                     t = setTimeout(function () {
                         fetchMsg();
                     }, 1100);

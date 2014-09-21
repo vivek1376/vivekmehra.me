@@ -12,15 +12,15 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/magicquotes.inc.php';
 
 require_once 'access.inc.php';
 
-//check if user is logged in
 if (!userIsLoggedIn()) {
-
-
+// user is not logged in
     if (isset($_GET['registerform'])) {
+        // show registration form
         include 'register.html.php';
         exit();
     }
     if (isset($_POST['registernew'])) {
+        //new user details submitted
         if ($_POST['fname'] != '' && $_POST['lname'] != '' && $_POST['uname'] != '') {
             if ($_POST['pwd'] != '' && ($_POST['pwd'] == $_POST['retypepwd'])) {
 
@@ -43,8 +43,8 @@ if (!userIsLoggedIn()) {
                     exit();
                 }
 
+                //show captcha image
                 include 'securimage/securimage.php';
-
 
                 $securimage = new Securimage();
 
@@ -58,7 +58,7 @@ if (!userIsLoggedIn()) {
                     exit();
                 }
 
-                //now ok, register users
+                //now ok, register users into database
                 try {
                     $sql = 'INSERT INTO chatusers SET
                     first_name=:fname,
@@ -97,6 +97,7 @@ if (!userIsLoggedIn()) {
     exit();
 }
 
+// user already logged in
 if (isset($_POST['searchFriend']) and $_POST['searchFriend'] == 'Search') {
     include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
@@ -118,8 +119,8 @@ if (isset($_POST['searchFriend']) and $_POST['searchFriend'] == 'Search') {
     // }
 }
 
-
 if (isset($_POST['friendRequest'])) {
+    // friend request sent, add it to database
     include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
     try {
@@ -139,6 +140,7 @@ if (isset($_POST['friendRequest'])) {
 
 
 if (isset($_POST['approveRequest'])) {
+    // approve button clicked, now add friend into database
     include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
     try {
@@ -196,6 +198,7 @@ if (isset($_POST['chatFriend'])) {
 include $_SERVER['DOCUMENT_ROOT'] . '/includes/db.inc.php';
 
 //prepare list of friends
+/* chatfriends table has only 1 entry for a distinct pair of friends */
 try {
     $sql = 'SELECT id,first_name,username,online FROM chatusers CU INNER JOIN chatfriends CF ON CU.id=CF.friendid WHERE userid="' . $_SESSION['userid'] . '"';
     $s = $pdo->prepare($sql);
