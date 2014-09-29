@@ -12,195 +12,252 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<title>Dashboard</title>
-<link rel="stylesheet" type="text/css" href="cssreset.css" media="screen">
-<style type="text/css">
-    @font-face {
-        font-family: 'misoregular';
-        src: url('fonts/miso-webfont.eot');
-        src: url('fonts/miso-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso-webfont.woff') format('woff'), url('fonts/miso-webfont.ttf') format('truetype'), url('fonts/miso-webfont.svg#misoregular') format('svg');
-        font-weight: normal;
-        font-style: normal;
-    }
+    <meta charset="utf-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" type="text/css" href="cssreset.css" media="screen">
+    <style type="text/css">
+        @font-face {
+            font-family: 'misoregular';
+            src: url('fonts/miso-webfont.eot');
+            src: url('fonts/miso-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso-webfont.woff') format('woff'), url('fonts/miso-webfont.ttf') format('truetype'), url('fonts/miso-webfont.svg#misoregular') format('svg');
+            font-weight: normal;
+            font-style: normal;
+        }
 
-    html {
-        height: 100%;
-    }
+        html {
+            height: 100%;
+        }
 
-    body {
-        font-family: sans-serif;
-        font-size: 14px;
-        height: 100%;
-        background-image: url("images/backPattern1.png");
-        font-family: misoregular;
-    }
+        body {
+            font-family: sans-serif;
+            font-size: 14px;
+            height: 100%;
+            background-image: url("images/backPattern1.png");
+            font-family: misoregular;
+        }
 
-    #container {
-        width: 350px;
-        margin: 0 auto;
-        height: 100%;
-        width: 640px;
-        background-image: url("images/backPattern.png");
-        border-left: 1px solid #beb3a7;
-        border-right: 1px solid #beb3a7;
-    }
+        #container {
+            width: 350px;
+            margin: 0 auto;
+            height: 100%;
+            width: 640px;
+            background-image: url("images/backPattern.png");
+            border-left: 1px solid #beb3a7;
+            border-right: 1px solid #beb3a7;
+        }
 
-    h1 {
-        font-size: 32px;
-        text-align: center;
-        padding-top: 50px;
-    }
+        h1 {
+            font-size: 32px;
+            text-align: center;
+            padding-top: 50px;
+        }
 
-    table {
-        margin: 0 auto;
-        font-size: 20px;
-    }
+        table {
+            margin: 0 auto;
+            font-size: 20px;
+        }
 
-    table tr.top {
-        border: 0;
-        visibility: hidden;
-    }
+        table tr.top {
+            border: 0;
+            visibility: hidden;
+        }
 
-    table tr {
-        height: 24px;
-        border-bottom: 1px solid #cbc9c3;
-    }
+        table tr {
+            height: 24px;
+            border-bottom: 1px solid #cbc9c3;
+        }
 
-    table td {
-        padding: 6px;
-    }
+        table td {
+            padding: 6px;
+        }
 
-    table tr.name {
-        width: 150px;
-    }
+        table tr.name {
+            width: 150px;
+        }
 
-    table th.name {
-        width: 150px;
-    }
+        table th.name {
+            width: 150px;
+        }
 
-    table td.status {
-        width: 80px;
-    }
+        table td.status {
+            width: 80px;
+        }
 
-    table input[type='submit'] {
-        border: 0;
-        background-color: #59cbc7;
-        height: 22px;
-        width: 46px;
-        box-sizing: border-box;
-        margin: 0;
-        border-bottom: 1px solid #48b3af;
-        border-top: 1px solid #59cbc7;
-        font-size: 16px;
-        color: #6bfbf8;
-        font-family: misoregular;
-    }
+        table input[type='submit'] {
+            border: 0;
+            background-color: #59cbc7;
+            height: 22px;
+            width: 46px;
+            box-sizing: border-box;
+            margin: 0;
+            border-bottom: 1px solid #48b3af;
+            border-top: 1px solid #59cbc7;
+            font-size: 16px;
+            color: #6bfbf8;
+            font-family: misoregular;
+        }
 
-    input#friendname {
-        box-shadow: none;
-        height: 26px;
-        margin: 0 auto;
-        z-index: 11;
-        border: 1px solid #91aaa9;
-        box-sizing: border-box;
-        font-size: 14px;
-        padding: 7px;
-        color: #5f5f5f;
-        font-family: misoregular;
-        font-size: 18px;
-        padding: 1px;
-        margin: 0;
-    }
+        input#friendname {
+            box-shadow: none;
+            height: 26px;
+            margin: 0 auto;
+            z-index: 11;
+            border: 1px solid #91aaa9;
+            box-sizing: border-box;
+            font-size: 14px;
+            padding: 7px;
+            color: #5f5f5f;
+            font-family: misoregular;
+            font-size: 18px;
+            padding: 1px;
+            margin: 0;
+        }
 
-    input#searchfriend {
-        border: 0;
-        background-color: #59cbc7;
-        height: 26px;
-        width: 56px;
-        box-sizing: border-box;
-        margin: 0;
-        border-bottom: 1px solid #48b3af;
-        border-top: 1px solid #59cbc7;
-        font-size: 16px;
-        color: #6bfbf8;
-        font-family: misoregular;
-        margin: 0;
-    }
+        input#searchfriend {
+            border: 0;
+            background-color: #59cbc7;
+            height: 26px;
+            width: 56px;
+            box-sizing: border-box;
+            margin: 0;
+            border-bottom: 1px solid #48b3af;
+            border-top: 1px solid #59cbc7;
+            font-size: 16px;
+            color: #6bfbf8;
+            font-family: misoregular;
+            margin: 0;
+        }
 
-    label#entername {
-        display: none;
-    }
+        label#entername {
+            display: none;
+        }
 
-    form#findfriend {
-        width: 217px;
-        margin: 0 auto;
-    }
+        form#findfriend {
+            width: 217px;
+            margin: 0 auto;
+        }
 
-    table#searchedfriends tr#top {
-        visibility: hidden;
-        border: 0;
-    }
+        table#searchedfriends tr#top {
+            visibility: hidden;
+            border: 0;
+        }
 
-    table#searchedfriends input[type='submit'] {
-        width: 80px;
-    }
+        table#searchedfriends input[type='submit'] {
+            width: 80px;
+        }
 
-    div#navbar {
-        height: 30px;
-        background-color: #363636;
-    }
+        div#navbar {
+            height: 30px;
+            background-color: #363636;
+        }
 
-    div#navbar form {
-        float: right;
+        div#navbar form {
+            float: right;
 
-    }
+        }
 
-    div#navbar input[type='submit'] {
-        border: none;
-        background-color: #692328;
-        color: #ffd3cd;
-        height: 30px;
-        width: 90px;
-        font-family: misoregular;
-        font-size: 18px;
-    }
+        div#navbar input[type='submit'] {
+            border: none;
+            background-color: #692328;
+            color: #ffd3cd;
+            height: 30px;
+            width: 90px;
+            font-family: misoregular;
+            font-size: 18px;
+        }
 
-    div#navbar input[type='submit']:hover {
-        background-color: #8e2f36;
-    }
+        div#navbar input[type='submit']:hover {
+            background-color: #8e2f36;
+        }
 
-    div#navbar p {
-        color: white;
-        height: 30px;
-        font-size: 22px;
-        padding: 4px;
-        float: left;
-        text-transform: capitalize;
-    }
+        div#navbar p {
+            color: white;
+            height: 30px;
+            font-size: 22px;
+            padding: 4px;
+            float: left;
+            text-transform: capitalize;
+        }
 
-    div#navbar span.uname {
-        font-weight: bold;
-    }
+        div#navbar span.uname {
+            font-weight: bold;
+        }
 
-    p.noresult {
-        text-align: center;
-        font-size: 18px;
-        margin: 20px;
-    }
-</style>
-<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
-<script type="text/javascript">
-    $(document).ready(function(){
-        //alert("sdsddsd232");
-        var ff=JSON.parse('<?php echo json_encode($chatFriends1) ?>');
+        p.noresult {
+            text-align: center;
+            font-size: 18px;
+            margin: 20px;
+        }
+    </style>
+    <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 
-        // sort all friends in order of increasing ID values
-        ff.sort(function(a,b){return b[0]-a[0];});
-        document.getElementById("json").innerHTML=ff[2][1]; //test
-    });
+    <?php
+    //create a unique string
+    $frStr = implode("_", array_map(function ($entry) {
+        return $entry['id'] . '.' . $entry['online'];
+    }, $chatFriends));
 
-</script>
+    $frHash = sha1($frStr);
+    ?>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+//            document.getElementById('json').innerHTML += (' OK'); //d
+
+            var frHashStr ='<?php echo $frHash; ?>';
+            function fetchFrList(){
+                var t;
+
+                $.ajax({
+                    url: 'friendList.php',
+                    type: 'POST',
+                    data: 'frHash=' + frHashStr
+                        + '&uid=' + <?php echo($_SESSION['userid']); ?>,
+                    dataType: 'json',
+                    success: function (msgs) {
+                        //xmlDoc= $.parseXML(msgs),
+                          //  $xml=$( xmlDoc ),
+                           // $table=$xml.find("text");
+
+                        //document.getElementById('json').innerHTML += (' OK');
+                        clearInterval(t);
+
+                        // send another request after approx 40 sec
+                        t = setTimeout(function () {
+                            fetchFrList();
+                        }, 2500);
+
+                        //document.getElementById('json').innerHTML += msgs;//$table.text();
+                        //var mm=JSON.parse(msgs);
+                        if(msgs[0]=='OK')
+                        {
+                            //alert('hey');
+                            //document.getElementById('json').innerHTML += msgs[0];
+                            //document.getElementById('json').innerHTML += ('<br>'+msgs[1]);//d
+                        }
+                        else
+                        {
+                            document.getElementById('frList').innerHTML = msgs[0];
+                            //document.getElementById('json').innerHTML += ('<br>'+msgs[1]);//d
+                            frHashStr=msgs[1];
+                        }
+
+
+                        //document.getElementById('json2').innerHTML = JSON.parse(msgs);//'sdsfsdfsd';
+                        //document.getElementById('json2').innerHTML = JSON.stringify(msgs);
+                    },
+                    timeout: 42000,
+                    error: function () {
+                        clearInterval(t);
+                        t = setTimeout(function () {
+                            fetchFrList();
+                        }, 6000);
+                    }
+                });
+            }
+            fetchFrList();
+        });
+    </script>
 </head>
 <body>
 <div id="container">
@@ -209,61 +266,40 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
         <?php include 'logout.inc.html.php'; ?>
     </div>
 
-    <?php echo json_encode($chatFriends1) ?>
+    <!-- print friends array in json format-->
+    <?php
+    //echo $frStr;
+    //echo '<br>' . $frHash;
+    ?>
 
-
-    <?php if ((isset($chatFriends1) and !empty($chatFriends1)) or (isset($chatFriends2) and !empty($chatFriends2))): ?>
+    <?php if (isset($chatFriends) and !empty($chatFriends)): ?>
         <h1>Your Friends</h1>
-        <table>
+        <table id="frList">
             <tr class="top">
                 <th class="name">Name</th>
                 <th>status</th>
                 <th>click to chat</th>
             </tr>
-            <?php if (isset($chatFriends1) and !empty($chatFriends1)): ?>
-                <?php foreach ($chatFriends1 as $friend): ?>
-                    <tr>
-                        <td class="name <?php htmlout($friend['id']) ?>"><?php htmlout($friend['first_name']); ?></td>
-                        <td class="status <?php htmlout($friend['id']) ?>">
-                            <?php if ($friend['online'] == 1): ?>
-                                online
-                            <?php else: ?>
-                                offline
-                            <?php endif ?>
-                        </td>
-                        <td class="chat <?php htmlout($friend['id']) ?>">
-                            <?php if ($friend['online'] == 1): ?>
-                                <form action="" method="post">
-                                    <input type="hidden" name="chatFriend" value="<?php htmlout($friend['id']) ?>">
-                                    <input type="submit" value="Chat">
-                                </form>
-                            <?php endif; ?>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
-            <?php endif; ?>
-            <?php if (isset($chatFriends2) and !empty($chatFriends2)): ?>
-                <?php foreach ($chatFriends2 as $friend): ?>
-                    <tr>
-                        <td><?php htmlout($friend['first_name']); ?></td>
-                        <td>
-                            <?php if ($friend['online'] == 1): ?>
-                                online
-                            <?php else: ?>
-                                offline
-                            <?php endif ?>
-                        </td>
-                        <td>
-                            <?php if ($friend['online'] == 1): ?>
-                                <form action="" method="post">
-                                    <input type="hidden" name="chatFriend" value="<?php htmlout($friend['id']) ?>">
-                                    <input type="submit" value="Chat">
-                                </form>
-                            <?php endif; ?>
-                        </td>
-                    </tr>
-                <?php endforeach; ?>
-            <?php endif; ?>
+            <?php foreach ($chatFriends as $friend): ?>
+                <tr>
+                    <td class="name <?php htmlout($friend['id']) ?>"><?php htmlout($friend['first_name']); ?></td>
+                    <td class="status <?php htmlout($friend['id']) ?>">
+                        <?php if ($friend['online'] == 1): ?>
+                            online
+                        <?php else: ?>
+                            offline
+                        <?php endif ?>
+                    </td>
+                    <td class="chat <?php htmlout($friend['id']) ?>">
+                        <?php if ($friend['online'] == 1): ?>
+                            <form action="" method="post">
+                                <input type="hidden" name="chatFriend" value="<?php htmlout($friend['id']) ?>">
+                                <input type="submit" value="Chat">
+                            </form>
+                        <?php endif; ?>
+                    </td>
+                </tr>
+            <?php endforeach; ?>
         </table>
     <?php else: ?>
         <p>No Friends :(</p>
@@ -323,8 +359,10 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
     <?php elseif (isset($searchedUsers) and empty($searchedUsers)): ?>
         <p class="noresult">Sorry, no matching results :(</p>
     <?php endif; ?>
+    <div id="json"></div>
+    <div id="json2"></div>
 </div>
-<div id="json"></div>
+
 <script type="text/javascript">
     //var friends=JSON.parse('');
     //alert("sds");

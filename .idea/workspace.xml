@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d0976d-2a08-42c4-9bb6-942d220a0c40" name="Default" comment="added simplifica font">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/access.inc.php" afterPath="$PROJECT_DIR$/projects/phpchat/access.inc.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/chatwindow.html.php" afterPath="$PROJECT_DIR$/projects/phpchat/chatwindow.html.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/phpchat/friendList.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" afterPath="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/index.php" afterPath="$PROJECT_DIR$/projects/phpchat/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -29,26 +28,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="11" selection-start="7865" selection-end="7865" vertical-scroll-proportion="-23.708334" vertical-offset="2851" max-vertical-offset="3690">
-              <folding>
-                <marker date="1411296743156" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-                <marker date="1411296743156" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-                <marker date="1411296743156" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-                <marker date="1411296743156" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-                <marker date="1411296743156" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-                <marker date="1411296743156" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="access.inc.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/access.inc.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="66" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2490">
+            <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2415">
               <folding>
                 <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
                 <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
@@ -58,62 +41,35 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="access.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
+      <file leaf-file-name="friendList.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/friendList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="error.html.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="friendForm.html.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="199" column="66" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.53608245" vertical-offset="78" max-vertical-offset="2520">
+            <state line="73" column="13" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-1.2083334" vertical-offset="1066" max-vertical-offset="1635">
               <folding>
-                <element signature="e#6#85#0" expanded="true" />
-                <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
-                <marker date="1411323759265" expanded="true" signature="4761:5145" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="4790:4922" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="5082:5145" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="5741:5846" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="6293:6344" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="6396:6443" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="6686:6733" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="6815:6920" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7450:7688" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7467:7547" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7634:7688" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7736:8049" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7791:8049" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7825:8049" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="7974:8049" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="8417:8624" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="8729:8980" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="8755:8842" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="8927:8980" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="9027:9186" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="9082:9186" placeholder="..." />
-                <marker date="1411323759265" expanded="true" signature="9634:9664" placeholder="..." />
+                <element signature="e#6#86#0" expanded="true" />
+                <marker date="1412027777348" expanded="true" signature="528:647" placeholder="SELECT id,fi..chatusers..." />
+                <marker date="1412027777348" expanded="true" signature="1024:1143" placeholder="SELECT id,fi..chatusers..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="helpers.inc.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/includes/helpers.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/chat.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="95" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1680">
+              <folding>
+                <marker date="1409686055677" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
+                <marker date="1409686055677" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
               </folding>
             </state>
           </provider>
@@ -122,7 +78,7 @@
       <file leaf-file-name="chatwindow.html.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="0" selection-start="544" selection-end="611" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="7995">
+            <state line="48" column="51" selection-start="1595" selection-end="1595" vertical-scroll-proportion="9.375" vertical-offset="945" max-vertical-offset="7995">
               <folding />
             </state>
           </provider>
@@ -131,33 +87,52 @@
       <file leaf-file-name="chatwindow.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1980">
+            <state line="48" column="35" selection-start="1575" selection-end="1575" vertical-scroll-proportion="28.25" vertical-offset="1398" max-vertical-offset="1980">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat2.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/chat2.php">
+      <file leaf-file-name="ajaxdemo.html.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/ajaxdemo.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="42" selection-start="925" selection-end="925" vertical-scroll-proportion="19.5" vertical-offset="843" max-vertical-offset="1425">
+            <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="73.416664" vertical-offset="1942" max-vertical-offset="2535">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="235" column="5" selection-start="7722" selection-end="7722" vertical-scroll-proportion="-8.708333" vertical-offset="3241" max-vertical-offset="3810">
               <folding>
-                <marker date="1409686055665" expanded="true" signature="446:491" placeholder="INSERT INTO ..." />
-                <marker date="1409686055665" expanded="true" signature="1021:1049" placeholder="SELECT MAX(i..messages..." />
-                <marker date="1409686055665" expanded="true" signature="1445:1499" placeholder="SELECT COUNT..messages..." />
-                <marker date="1409686055665" expanded="true" signature="2016:2071" placeholder="SELECT id,me..messages..." />
+                <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
+                <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
+                <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
+                <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
+                <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
+                <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/chat.php">
+      <file leaf-file-name="index3.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/index3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="42" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1680">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="friendForm.html.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="271" column="6" selection-start="7480" selection-end="7480" vertical-scroll-proportion="0.4745167" vertical-offset="3795" max-vertical-offset="5685">
               <folding>
-                <marker date="1409686055677" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
-                <marker date="1409686055677" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
+                <element signature="e#6#85#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -197,6 +172,7 @@
         <option value="$PROJECT_DIR$/projects/phpchat/access.inc.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/chatwindow.html.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/index.php" />
+        <option value="$PROJECT_DIR$/projects/phpchat/friendList.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" />
       </list>
     </option>
@@ -204,9 +180,9 @@
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
     <option name="x" value="53" />
-    <option name="y" value="24" />
+    <option name="y" value="-4" />
     <option name="width" value="1313" />
-    <option name="height" value="744" />
+    <option name="height" value="772" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -299,6 +275,22 @@
     <property name="LayoutCode.rearrangeEntriesHTML" value="false" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="75" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="89" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="993" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="75" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="84" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="89" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="993" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -376,17 +368,17 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="24" width="1313" height="744" extended-state="6" />
+    <frame x="53" y="-4" width="1313" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20377655" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2100708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5003934" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -400,6 +392,28 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.4996066" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5003934" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2100708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24940991" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -423,23 +437,9 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="31" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2760" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/helpers.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/cssreset.css">
@@ -452,7 +452,11 @@
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
+          <folding>
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -461,29 +465,6 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
-            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
-            <marker date="1411323759265" expanded="true" signature="4761:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="4790:4922" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5082:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5741:5846" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6293:6344" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6396:6443" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6686:6733" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6815:6920" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7450:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7467:7547" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7634:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7736:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7791:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7825:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7974:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8417:8624" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8729:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8755:8842" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8927:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9027:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9082:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9634:9664" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -492,12 +473,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="240" column="5" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
           <folding>
-            <marker date="1411296743156" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411296743156" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411296743156" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
           </folding>
         </state>
       </provider>
@@ -516,7 +497,10 @@
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
-          <folding />
+          <folding>
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -541,9 +525,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/cssreset.css">
@@ -556,7 +538,11 @@
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
+          <folding>
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -565,29 +551,6 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
-            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
-            <marker date="1411323759265" expanded="true" signature="4761:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="4790:4922" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5082:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5741:5846" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6293:6344" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6396:6443" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6686:6733" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6815:6920" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7450:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7467:7547" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7634:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7736:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7791:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7825:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7974:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8417:8624" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8729:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8755:8842" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8927:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9027:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9082:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9634:9664" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -596,12 +559,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="240" column="5" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
           <folding>
-            <marker date="1411296743156" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411296743156" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411296743156" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
           </folding>
         </state>
       </provider>
@@ -620,7 +583,10 @@
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
-          <folding />
+          <folding>
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -645,9 +611,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/cssreset.css">
@@ -660,7 +624,11 @@
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
+          <folding>
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -669,29 +637,6 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
-            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
-            <marker date="1411323759265" expanded="true" signature="4761:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="4790:4922" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5082:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5741:5846" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6293:6344" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6396:6443" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6686:6733" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6815:6920" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7450:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7467:7547" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7634:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7736:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7791:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7825:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7974:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8417:8624" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8729:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8755:8842" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8927:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9027:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9082:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9634:9664" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -746,28 +691,9 @@
         <state line="24" column="40" selection-start="717" selection-end="717" vertical-scroll-proportion="-11.875" vertical-offset="0" max-vertical-offset="3525" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/ajaxdemo.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="74.5" vertical-offset="1968" max-vertical-offset="2535" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/cssreset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
           <folding />
         </state>
       </provider>
@@ -779,18 +705,72 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
+        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.12371134" vertical-offset="1338" max-vertical-offset="1920">
+          <folding>
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="604">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/chat2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="42" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.12417219" vertical-offset="450" max-vertical-offset="1425">
+          <folding>
+            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT MAX(i..messages..." />
+            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..messages..." />
+            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT id,me..messages..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="66" selection-start="363" selection-end="363" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2490">
+        <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2415">
           <folding>
             <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
             <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
             <marker date="1410708571361" expanded="true" signature="3090:3162" placeholder="SELECT id FR..chatusers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/ajaxdemo.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="73.416664" vertical-offset="1942" max-vertical-offset="2535">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="35" selection-start="1575" selection-end="1575" vertical-scroll-proportion="28.25" vertical-offset="1398" max-vertical-offset="1980">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/index3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
+          <folding>
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -804,26 +784,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="465">
+        <state line="23" column="20" selection-start="618" selection-end="618" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/chat2.php">
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="925" selection-end="925" vertical-scroll-proportion="19.5" vertical-offset="843" max-vertical-offset="1425">
+        <state line="235" column="5" selection-start="7722" selection-end="7722" vertical-scroll-proportion="-8.708333" vertical-offset="3241" max-vertical-offset="3810">
           <folding>
-            <marker date="1409686055665" expanded="true" signature="446:491" placeholder="INSERT INTO ..." />
-            <marker date="1409686055665" expanded="true" signature="1021:1049" placeholder="SELECT MAX(i..messages..." />
-            <marker date="1409686055665" expanded="true" signature="1445:1499" placeholder="SELECT COUNT..messages..." />
-            <marker date="1409686055665" expanded="true" signature="2016:2071" placeholder="SELECT id,me..messages..." />
+            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/friendList.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="73" column="13" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-1.2083334" vertical-offset="1066" max-vertical-offset="1635">
+          <folding>
+            <element signature="e#6#86#0" expanded="true" />
+            <marker date="1412027777348" expanded="true" signature="528:647" placeholder="SELECT id,fi..chatusers..." />
+            <marker date="1412027777348" expanded="true" signature="1024:1143" placeholder="SELECT id,fi..chatusers..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="42" selection-start="1180" selection-end="1180" vertical-scroll-proportion="-20.0" vertical-offset="0" max-vertical-offset="1680">
+        <state line="95" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1680">
           <folding>
             <marker date="1409686055677" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
             <marker date="1409686055677" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
@@ -831,62 +824,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="544" selection-end="611" vertical-scroll-proportion="-13.125" vertical-offset="0" max-vertical-offset="7995">
+        <state line="48" column="51" selection-start="1595" selection-end="1595" vertical-scroll-proportion="9.375" vertical-offset="945" max-vertical-offset="7995">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="11" selection-start="7865" selection-end="7865" vertical-scroll-proportion="-23.708334" vertical-offset="2851" max-vertical-offset="3690">
-          <folding>
-            <marker date="1411296743156" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411296743156" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411296743156" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411296743156" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="199" column="66" selection-start="4313" selection-end="4313" vertical-scroll-proportion="0.53608245" vertical-offset="78" max-vertical-offset="2520">
+        <state line="271" column="6" selection-start="7480" selection-end="7480" vertical-scroll-proportion="0.4745167" vertical-offset="3795" max-vertical-offset="5685">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
-            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
-            <marker date="1411323759265" expanded="true" signature="4761:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="4790:4922" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5082:5145" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="5741:5846" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6293:6344" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6396:6443" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6686:6733" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="6815:6920" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7450:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7467:7547" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7634:7688" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7736:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7791:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7825:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="7974:8049" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8417:8624" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8729:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8755:8842" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="8927:8980" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9027:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9082:9186" placeholder="..." />
-            <marker date="1411323759265" expanded="true" signature="9634:9664" placeholder="..." />
           </folding>
         </state>
       </provider>

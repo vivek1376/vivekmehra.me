@@ -225,6 +225,14 @@ try {
 
 $chatFriends2 = $s->fetchAll();
 
+//combine in one array
+$chatFriends=array_merge($chatFriends1,$chatFriends2);
+
+//sort all friends based on ID
+usort($chatFriends, function($a,$b){
+    return $a['id']-$b['id'];
+});
+
 try {
     $sql = 'SELECT userid,first_name FROM friendrequests FR INNER JOIN chatusers CU ON FR.userid=CU.id WHERE requesteeid="' . $_SESSION['userid'] . '"';
     $result = $pdo->query($sql);
