@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81d0976d-2a08-42c4-9bb6-942d220a0c40" name="Default" comment="added simplifica font">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/projects/phpchat/friendList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/chat.php" afterPath="$PROJECT_DIR$/projects/phpchat/chat.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" afterPath="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/index.php" afterPath="$PROJECT_DIR$/projects/phpchat/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/projects/phpchat/friendList.php" afterPath="$PROJECT_DIR$/projects/phpchat/friendList.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vivekmehra.me.iws" />
@@ -28,14 +29,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="access.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/access.inc.php">
+      <file leaf-file-name="friendForm.html.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2415">
+            <state line="233" column="82" selection-start="6112" selection-end="6112" vertical-scroll-proportion="0.5215232" vertical-offset="585" max-vertical-offset="3135">
               <folding>
-                <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
-                <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
-                <marker date="1410708571361" expanded="true" signature="3090:3162" placeholder="SELECT id FR..chatusers..." />
+                <element signature="e#6#85#0" expanded="true" />
+                <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -44,21 +44,11 @@
       <file leaf-file-name="friendList.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/friendList.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="13" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-1.2083334" vertical-offset="1066" max-vertical-offset="1635">
+            <state line="24" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="20.375" vertical-offset="774" max-vertical-offset="1590">
               <folding>
-                <element signature="e#6#86#0" expanded="true" />
-                <marker date="1412027777348" expanded="true" signature="528:647" placeholder="SELECT id,fi..chatusers..." />
-                <marker date="1412027777348" expanded="true" signature="1024:1143" placeholder="SELECT id,fi..chatusers..." />
+                <marker date="1412284354010" expanded="true" signature="686:805" placeholder="SELECT id,fi..chatusers..." />
+                <marker date="1412284354010" expanded="true" signature="1230:1349" placeholder="SELECT id,fi..chatusers..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="helpers.inc.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/includes/helpers.inc.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -66,10 +56,10 @@
       <file leaf-file-name="chat.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/chat.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1680">
+            <state line="104" column="27" selection-start="3638" selection-end="3705" vertical-scroll-proportion="-19.625" vertical-offset="1014" max-vertical-offset="1650">
               <folding>
-                <marker date="1409686055677" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
-                <marker date="1409686055677" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
+                <marker date="1412283378022" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
+                <marker date="1412283378022" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
               </folding>
             </state>
           </provider>
@@ -78,62 +68,8 @@
       <file leaf-file-name="chatwindow.html.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="51" selection-start="1595" selection-end="1595" vertical-scroll-proportion="9.375" vertical-offset="945" max-vertical-offset="7995">
+            <state line="13" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="25.625" vertical-offset="810" max-vertical-offset="7995">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="chatwindow.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="35" selection-start="1575" selection-end="1575" vertical-scroll-proportion="28.25" vertical-offset="1398" max-vertical-offset="1980">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ajaxdemo.html.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/ajaxdemo.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="73.416664" vertical-offset="1942" max-vertical-offset="2535">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="235" column="5" selection-start="7722" selection-end="7722" vertical-scroll-proportion="-8.708333" vertical-offset="3241" max-vertical-offset="3810">
-              <folding>
-                <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-                <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-                <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-                <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-                <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-                <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index3.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/index3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="180">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="friendForm.html.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="271" column="6" selection-start="7480" selection-end="7480" vertical-scroll-proportion="0.4745167" vertical-offset="3795" max-vertical-offset="5685">
-              <folding>
-                <element signature="e#6#85#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -164,14 +100,15 @@
         <option value="$PROJECT_DIR$/projects/phpchat/login.html.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/register.html.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/test1.php" />
-        <option value="$PROJECT_DIR$/projects/phpchat/chat.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/chat2.php" />
         <option value="$PROJECT_DIR$/includes/access.inc.php" />
         <option value="$PROJECT_DIR$/includes/db.inc.php" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/projects/phpchat/access.inc.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/chatwindow.html.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/index.php" />
+        <option value="$PROJECT_DIR$/index2.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/projects/phpchat/chat.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/friendList.php" />
         <option value="$PROJECT_DIR$/projects/phpchat/friendForm.html.php" />
       </list>
@@ -291,6 +228,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="993" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="DefaultHtmlFileTemplate" value="Html" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -372,7 +310,7 @@
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32824427" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2100708" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21321794" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977098" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32924962" sideWeight="0.5003934" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -437,11 +375,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="465" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/cssreset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="120">
@@ -451,13 +384,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
@@ -465,6 +392,7 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -473,12 +401,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="240" column="5" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
           <folding>
-            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT first..chatusers..." />
           </folding>
         </state>
       </provider>
@@ -487,28 +415,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="38" selection-start="4027" selection-end="4027" vertical-scroll-proportion="0.0" vertical-offset="2010" max-vertical-offset="2460">
           <folding>
-            <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="3090:3162" placeholder="SELECT id FR..chatusers..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="SELECT id FR..chatusers..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
-          <folding>
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-          </folding>
-        </state>
+        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -537,13 +458,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
@@ -551,6 +466,7 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -559,12 +475,12 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="240" column="5" selection-start="7630" selection-end="7630" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3720">
           <folding>
-            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT first..chatusers..." />
           </folding>
         </state>
       </provider>
@@ -573,28 +489,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="134" column="38" selection-start="4027" selection-end="4027" vertical-scroll-proportion="0.0" vertical-offset="2010" max-vertical-offset="2460">
           <folding>
-            <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="3090:3162" placeholder="SELECT id FR..chatusers..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="SELECT id FR..chatusers..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995">
-          <folding>
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-          </folding>
-        </state>
+        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.0" vertical-offset="1485" max-vertical-offset="1995" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345">
-          <folding />
-        </state>
+        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="135" max-vertical-offset="345" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
@@ -623,13 +532,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding>
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
@@ -637,6 +540,7 @@
         <state line="8" column="43" selection-start="130" selection-end="130" vertical-scroll-proportion="0.0" vertical-offset="120" max-vertical-offset="4800">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -698,81 +602,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="107" column="31" selection-start="4054" selection-end="4054" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="2760" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/includes/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.12371134" vertical-offset="1338" max-vertical-offset="1920">
-          <folding>
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-            <marker date="1409687386093" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..authors..." />
-          </folding>
-        </state>
+        <state line="99" column="7" selection-start="2495" selection-end="2495" vertical-scroll-proportion="0.12371134" vertical-offset="1338" max-vertical-offset="1920" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/db.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="604">
-          <folding />
-        </state>
+        <state line="9" column="108" selection-start="201" selection-end="201" vertical-scroll-proportion="0.09933775" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/chat2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="42" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.12417219" vertical-offset="450" max-vertical-offset="1425">
-          <folding>
-            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
-            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT MAX(i..messages..." />
-            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..messages..." />
-            <marker date="1409686055665" expanded="true" signature="-1:-1" placeholder="SELECT id,me..messages..." />
-          </folding>
-        </state>
+        <state line="30" column="42" selection-start="925" selection-end="925" vertical-scroll-proportion="-0.12417219" vertical-offset="450" max-vertical-offset="1425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/access.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="-15.0" vertical-offset="0" max-vertical-offset="2415">
+        <state line="29" column="14" selection-start="849" selection-end="849" vertical-scroll-proportion="0.0" vertical-offset="435" max-vertical-offset="2490">
           <folding>
-            <marker date="1410708571361" expanded="true" signature="1108:1162" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="2084:2138" placeholder="UPDATE chatu..." />
-            <marker date="1410708571361" expanded="true" signature="3090:3162" placeholder="SELECT id FR..chatusers..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="UPDATE chatu..." />
+            <marker date="1410708571361" expanded="true" signature="-1:-1" placeholder="SELECT id FR..chatusers..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/ajaxdemo.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="73.416664" vertical-offset="1942" max-vertical-offset="2535">
+        <state line="17" column="45" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="2610">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="35" selection-start="1575" selection-end="1575" vertical-scroll-proportion="28.25" vertical-offset="1398" max-vertical-offset="1980">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/index3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
+        <state line="48" column="35" selection-start="1575" selection-end="1575" vertical-scroll-proportion="0.0" vertical-offset="1398" max-vertical-offset="1980">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/error.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604">
-          <folding>
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1399212874000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="604" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/helpers.inc.php">
@@ -784,58 +656,70 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/includes/magicquotes.inc.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="20" selection-start="618" selection-end="618" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
+        <state line="23" column="20" selection-start="618" selection-end="618" vertical-scroll-proportion="-11.25" vertical-offset="0" max-vertical-offset="390" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="235" column="5" selection-start="7722" selection-end="7722" vertical-scroll-proportion="-8.708333" vertical-offset="3241" max-vertical-offset="3810">
+        <state line="235" column="5" selection-start="7722" selection-end="7722" vertical-scroll-proportion="0.0" vertical-offset="3525" max-vertical-offset="3885">
           <folding>
-            <marker date="1411934217535" expanded="true" signature="828:887" placeholder="SELECT COUNT..chatusers..." />
-            <marker date="1411934217535" expanded="true" signature="2235:2442" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="4551:4630" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5160:5230" placeholder="INSERT INTO ..." />
-            <marker date="1411934217535" expanded="true" signature="5613:5689" placeholder="DELETE FROM ..." />
-            <marker date="1411934217535" expanded="true" signature="6193:6238" placeholder="SELECT first..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT COUNT..chatusers..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1411934217535" expanded="true" signature="-1:-1" placeholder="SELECT first..chatusers..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="42" selection-start="5525" selection-end="5525" vertical-scroll-proportion="-45.625" vertical-offset="1260" max-vertical-offset="2685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/index3.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="606">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="21" selection-start="244" selection-end="244" vertical-scroll-proportion="25.625" vertical-offset="810" max-vertical-offset="7995">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendList.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="13" selection-start="2081" selection-end="2081" vertical-scroll-proportion="-1.2083334" vertical-offset="1066" max-vertical-offset="1635">
+        <state line="24" column="5" selection-start="651" selection-end="651" vertical-scroll-proportion="20.375" vertical-offset="774" max-vertical-offset="1590">
           <folding>
-            <element signature="e#6#86#0" expanded="true" />
-            <marker date="1412027777348" expanded="true" signature="528:647" placeholder="SELECT id,fi..chatusers..." />
-            <marker date="1412027777348" expanded="true" signature="1024:1143" placeholder="SELECT id,fi..chatusers..." />
+            <marker date="1412284354010" expanded="true" signature="686:805" placeholder="SELECT id,fi..chatusers..." />
+            <marker date="1412284354010" expanded="true" signature="1230:1349" placeholder="SELECT id,fi..chatusers..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/chat.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="0" selection-start="3357" selection-end="3357" vertical-scroll-proportion="-56.25" vertical-offset="0" max-vertical-offset="1680">
+        <state line="104" column="27" selection-start="3638" selection-end="3705" vertical-scroll-proportion="-19.625" vertical-offset="1014" max-vertical-offset="1650">
           <folding>
-            <marker date="1409686055677" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
-            <marker date="1409686055677" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
+            <marker date="1412283378022" expanded="true" signature="446:551" placeholder="INSERT INTO ..." />
+            <marker date="1412283378022" expanded="true" signature="1276:1304" placeholder="SELECT MAX(i..messages..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/projects/phpchat/chatwindow.html.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="51" selection-start="1595" selection-end="1595" vertical-scroll-proportion="9.375" vertical-offset="945" max-vertical-offset="7995">
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/projects/phpchat/friendForm.html.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="271" column="6" selection-start="7480" selection-end="7480" vertical-scroll-proportion="0.4745167" vertical-offset="3795" max-vertical-offset="5685">
+        <state line="233" column="82" selection-start="6112" selection-end="6112" vertical-scroll-proportion="0.5215232" vertical-offset="585" max-vertical-offset="3135">
           <folding>
             <element signature="e#6#85#0" expanded="true" />
+            <element signature="tag#style#0;tag#head#0;tag#html#0" expanded="false" />
           </folding>
         </state>
       </provider>

@@ -53,7 +53,7 @@ if (isset($_POST['msg'])) {
 
     } else {
         $timeWasted = 0;
-        while ($timeWasted < 35) {
+        while ($timeWasted < 40) {
             try {
                 $sql = 'SELECT COUNT(id) FROM messages WHERE id > :latestmsgid' .
                     ' AND ((senderid=:sid AND receiverid=:rid) OR' .
@@ -95,12 +95,10 @@ if (isset($_POST['msg'])) {
                 $msgs = array();
 
                 foreach ($result as $row) {
-                    //$msgs[] = array('id' => $row['id'], 'bd' => $row['message']);
                     $msgs[] = array('id' => $row['id'], 'bd' => $row['message'], 'sid' => $row['senderid'], 'rid' => $row['receiverid']);
                 }
-                //echo json_encode($msgs);
-                //exit();
-                break;
+
+                break;//terminate loop and send data
             }
             usleep(800000);
             //sleep(1);

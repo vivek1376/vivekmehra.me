@@ -229,7 +229,10 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
 
                         //document.getElementById('json').innerHTML += msgs;//$table.text();
                         //var mm=JSON.parse(msgs);
-                        if(msgs[0]=='OK')
+                        //var mgs=JSON.parse(msgs);
+
+                        // think!! in response data special characters are escaped
+                        if(mgs[0]=='OK')
                         {
                             //alert('hey');
                             //document.getElementById('json').innerHTML += msgs[0];
@@ -237,9 +240,9 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
                         }
                         else
                         {
-                            document.getElementById('frList').innerHTML = msgs[0];
+                            document.getElementById('frList').innerHTML = mgs[0];
                             //document.getElementById('json').innerHTML += ('<br>'+msgs[1]);//d
-                            frHashStr=msgs[1];
+                            frHashStr=mgs[1];
                         }
 
 

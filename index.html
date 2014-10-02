@@ -1,18 +1,28 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html lang="en">
+
+<html>
 <head>
     <title>Vivek</title>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
     <link rel="stylesheet" href="css-reset.css" charset="us-ascii">
     <!-- <link rel="stylesheet" href="webfonts/stylesheet.css" type="text/css" charset="utf-8"/> -->
-    <style type="text/css ">
+    <style type="text/css">
+        body {
+            background-color: #ff0000;
+            background-image: url("files/darkTexture.jpg");
+        }
+        div#content {
+            width: 700px;
+            margin: 0 auto;
+            //overflow: auto;
+            text-align: center; //for centering child floats
+        }
         @font-face {
             font-family: 'misolight';
             src: url('files/fonts/miso-light-webfont.eot');
             src: url('files/fonts/miso-light-webfont.eot?#iefix') format('embedded-opentype'), url('files/fonts/miso-light-webfont.woff') format('woff'), url('files/fonts/miso-light-webfont.ttf') format('truetype'), url('files/fonts/miso-light-webfont.svg#misolight') format('svg');
             font-weight: normal;
             font-style: normal;
-
         }
         @font-face {
             font-family: 'roboto_condensedlight';
@@ -23,13 +33,7 @@
             url('files/fonts/RobotoCondensed-Light-webfont.svg#roboto_condensedlight') format('svg');
             font-weight: normal;
             font-style: normal;
-
         }
-
-        body {
-            background-image: url("files/darkTexture.jpg");
-        }
-
         p#banner {
             font-family: misolight;
             font-size: 60px;
@@ -58,14 +62,6 @@
             border-right-color: #db9575;
             border-bottom-color: #986751;
             border-radius: 1px;
-
-        }
-
-        div#content {
-            width: 700px;
-            margin: 0 auto;
-            overflow: auto;
-            text-align: center; //for centering child floats
         }
 
         blockquote {
@@ -139,7 +135,7 @@
         }
         a.phpchat{
             background-image: url("files/textback.png");
-        }
+        }*/
     </style>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script type="text/javascript">
@@ -158,7 +154,6 @@
 </head>
 <body>
 <div id="content">
-
     <blockquote>
         <p class="quote">"Imagination is more important than knowledge."</p>
 
