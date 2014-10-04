@@ -226,11 +226,11 @@ try {
 $chatFriends2 = $s->fetchAll();
 
 //combine in one array
-$chatFriends=array_merge($chatFriends1,$chatFriends2);
+$chatFriends = array_merge($chatFriends1, $chatFriends2);
 
 //sort all friends based on ID
-usort($chatFriends, function($a,$b){
-    return $a['id']-$b['id'];
+usort($chatFriends, function ($a, $b) {
+    return $a['id'] - $b['id'];
 });
 
 try {

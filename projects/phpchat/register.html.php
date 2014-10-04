@@ -59,7 +59,8 @@ session_start();
         width: 200px;
         margin-bottom: 8px;
     }
-    h1#title{
+
+    h1#title {
         text-align: center;
         font-size: 32px;
         color: #786d67;
@@ -141,6 +142,7 @@ session_start();
         color: #38817f;
         font-family: misoregular;
     }
+
     img#captcha_image {
         display: block;
         margin: 0 auto;

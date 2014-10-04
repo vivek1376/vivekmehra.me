@@ -100,12 +100,15 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
         });
 
 
-        $("#msgform").submit(function () {
+        $("#msgform").submit(function (event) {
             chatMsg = $('#entermsg').val();
             $('#entermsg').val('');
             sendMessage();
             //alert(chatMsg);
-            return false;
+
+            //prevent default behaviour
+            event.stopPropagation();
+            event.preventDefault();
         });
 
         function sendMessage() {

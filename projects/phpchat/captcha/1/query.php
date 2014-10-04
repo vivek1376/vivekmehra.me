@@ -45,9 +45,9 @@ require 'CaptchasDotNet.php';
     'abcdefghkmnopqrstuvwxyz','6',
     '240','80','000088');*/
 $captchas = new CaptchasDotNet ('demo', 'secret',
-    '/tmp/captchasnet-random-strings','3600',
-    'abcdefghkmnopqrstuvwxyz','6',
-    '200','60','000088');
+    '/tmp/captchasnet-random-strings', '3600',
+    'abcdefghkmnopqrstuvwxyz', '6',
+    '200', '60', '000088');
 ?>
 
 <html>
@@ -55,12 +55,15 @@ $captchas = new CaptchasDotNet ('demo', 'secret',
     <title>Sample PHP CAPTCHA Query</title>
 </head>
 <h1>Sample PHP CAPTCHA Query</h1>
+
 <form method="get" action="check.php">
     <table>
         <tr>
             <td>
-                <input type="hidden" name="random" value="<?php echo $captchas->random () ?>" />
-                Your message:</td><td><input name="message" size="60" />
+                <input type="hidden" name="random" value="<?php echo $captchas->random() ?>"/>
+                Your message:
+            </td>
+            <td><input name="message" size="60"/>
             </td>
         </tr>
         <tr>
@@ -68,26 +71,27 @@ $captchas = new CaptchasDotNet ('demo', 'secret',
                 The CAPTCHA password:
             </td>
             <td>
-                <input name="password" size="6" />
+                <input name="password" size="6"/>
             </td>
         </tr>
         <tr>
             <td>
             </td>
             <td>
-                <?php echo $captchas->image () ?> <a href="javascript:captchas_image_reload('captchas.net')">Reload Image</a>
-                <br> <a href="<?= $captchas->audio_url () ?>">Phonetic spelling (mp3)</a>
-                <br> <a href="<?= $captchas->audio_url () ?>&language=de">Buchstabieren (mp3)</a>
-                <br> <a href="<?= $captchas->audio_url () ?>&language=it">Compitare (mp3)</a>
-                <br> <a href="<?= $captchas->audio_url () ?>&language=nl">Spellen (mp3)</a>
-                <br> <a href="<?= $captchas->audio_url () ?>&language=fr">Epeler (mp3)</a>
+                <?php echo $captchas->image() ?> <a href="javascript:captchas_image_reload('captchas.net')">Reload
+                    Image</a>
+                <br> <a href="<?= $captchas->audio_url() ?>">Phonetic spelling (mp3)</a>
+                <br> <a href="<?= $captchas->audio_url() ?>&language=de">Buchstabieren (mp3)</a>
+                <br> <a href="<?= $captchas->audio_url() ?>&language=it">Compitare (mp3)</a>
+                <br> <a href="<?= $captchas->audio_url() ?>&language=nl">Spellen (mp3)</a>
+                <br> <a href="<?= $captchas->audio_url() ?>&language=fr">Epeler (mp3)</a>
             </td>
         </tr>
         <tr>
             <td>
             </td>
             <td>
-                <input type="submit" value="Submit" />
+                <input type="submit" value="Submit"/>
             </td>
         </tr>
     </table>

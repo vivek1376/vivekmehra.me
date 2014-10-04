@@ -102,21 +102,39 @@
 
     </script>
     <style type="text/css">
-        body{
+        body {
             background-color: #f8f2e9;
         }
+
         div#displaymsg {
             height: 300px;
             padding-top: 10px;
             width: 250px;
-            margin : 0 auto;
+            margin: 0 auto;
             border: 2px solid #eecfbd;
         / / overflow : auto;
         / / overflow-x : hidden;
-        //    background-color: #432818;
-        //border:1px solid bl
 
-        / / margin-top : 20 px;
+        /
+        /
+        background-color: #432818
+
+        ;
+        /
+        /
+        border:
+
+        1
+        px solid bl
+
+        /
+        /
+        margin-top :
+
+        20
+        px
+
+        ;
         }
 
         p.message {
@@ -134,7 +152,8 @@
             -moz-border-radius: 2px;
             -webkit-border-radius: 2px;
         }
-        textarea{
+
+        textarea {
             border: 1px solid #c1a899;
             border-radius: 0;
             -moz-border-radius: 0;
@@ -148,7 +167,8 @@
             position: relative;
             left: -25px;
         }
-        #but{
+
+        #but {
             border-radius: 0;
             -moz-border-radius: 0;
             -webkit-border-radius: 0;

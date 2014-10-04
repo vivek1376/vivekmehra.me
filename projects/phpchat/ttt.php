@@ -6,8 +6,8 @@
  * Time: 9:14 PM
  */
 
-$aa='aa';
+$aa = 'aa';
 ?>
-sadasda asd asd a3423 4
+    sadasda asd asd a3423 4
 <?php
 echo $aa; ?>

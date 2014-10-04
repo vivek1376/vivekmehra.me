@@ -21,8 +21,7 @@ if (isset($_POST['frHash'])) {
     /* chatfriends table has only 1 entry for a distinct pair of friends */
     $timeWasted = 0; //wait till database changes
     $tb = 'OK'; //send OK if no change is made and time runs out
-    while ($timeWasted < 10)
-    {
+    while ($timeWasted < 10) {
         try {
             $sql = 'SELECT id,first_name,username,online FROM chatusers CU INNER JOIN chatfriends CF ON CU.id=CF.friendid WHERE userid=:uid'; // . $_SESSION['userid'] . '"';
             $s = $pdo->prepare($sql);

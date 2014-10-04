@@ -5,12 +5,12 @@
     <title>Chat</title>
     <script type="text/javascript">
 
-        function write(){
-            document.getElementById("displaymsg").innerHTML+='hahuuu<br>';
+        function write() {
+            document.getElementById("displaymsg").innerHTML += 'hahuuu<br>';
         }
     </script>
     <style type="text/css">
-        #mm{
+        #mm {
             border: 1px solid black;
             background-color: #ffc29e;
             width: 100px;
@@ -78,50 +78,50 @@
 <div id="mm"></div>
 
 <script type="text/javascript">
-    document.getElementById('mm').innerHTML="text2";
+    document.getElementById('mm').innerHTML = "text2";
 
-    (function(){
-    var httpRequest;
-    document.getElementById("ajaxButton").onclick = function () {
-        makeRequest('test.html');
-    };
+    (function () {
+        var httpRequest;
+        document.getElementById("ajaxButton").onclick = function () {
+            makeRequest('test.html');
+        };
 
-    function makeRequest(url) {
-        if (window.XMLHttpRequest) { // Mozilla, Safari, ...
-            httpRequest = new XMLHttpRequest();
-        } else if (window.ActiveXObject) { // IE
-            try {
-                httpRequest = new ActiveXObject("Msxml2.XMLHTTP");
-            }
-            catch (e) {
+        function makeRequest(url) {
+            if (window.XMLHttpRequest) { // Mozilla, Safari, ...
+                httpRequest = new XMLHttpRequest();
+            } else if (window.ActiveXObject) { // IE
                 try {
-                    httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+                    httpRequest = new ActiveXObject("Msxml2.XMLHTTP");
                 }
                 catch (e) {
+                    try {
+                        httpRequest = new ActiveXObject("Microsoft.XMLHTTP");
+                    }
+                    catch (e) {
+                    }
+                }
+            }
+
+            if (!httpRequest) {
+                alert('Giving up :( Cannot create an XMLHTTP instance');
+                return false;
+            }
+            httpRequest.onreadystatechange = alertContents;
+            httpRequest.open('GET', url);
+            httpRequest.send();
+        }
+
+        function alertContents() {
+            if (httpRequest.readyState === 4) {
+                if (httpRequest.status === 200) {
+                    document.getElementById("displaymsg").innerHTML = httpRequest.responseText;
+                    //alert(httpRequest.responseText);
+                } else {
+                    alert('There was a problem with the request.');
                 }
             }
         }
-
-        if (!httpRequest) {
-            alert('Giving up :( Cannot create an XMLHTTP instance');
-            return false;
-        }
-        httpRequest.onreadystatechange = alertContents;
-        httpRequest.open('GET', url);
-        httpRequest.send();
-    }
-
-    function alertContents() {
-        if (httpRequest.readyState === 4) {
-            if (httpRequest.status === 200) {
-                document.getElementById("displaymsg").innerHTML=httpRequest.responseText;
-                //alert(httpRequest.responseText);
-            } else {
-                alert('There was a problem with the request.');
-            }
-        }
-    }
-})();
+    })();
 </script>
 </body>
 </html>

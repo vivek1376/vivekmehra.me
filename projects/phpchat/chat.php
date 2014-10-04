@@ -69,7 +69,7 @@ if (isset($_POST['msg'])) {
                 exit();
             }
 
-            $msgs=array();
+            $msgs = array();
 
             $cnt = $s->fetch();
             if ($cnt[0] > 0) {
@@ -90,7 +90,7 @@ if (isset($_POST['msg'])) {
                     exit();
                 }
 
-                $result=$s->fetchAll();
+                $result = $s->fetchAll();
 
                 $msgs = array();
 
@@ -98,11 +98,11 @@ if (isset($_POST['msg'])) {
                     $msgs[] = array('id' => $row['id'], 'bd' => $row['message'], 'sid' => $row['senderid'], 'rid' => $row['receiverid']);
                 }
 
-                break;//terminate loop and send data
+                break; //terminate loop and send data
             }
             usleep(800000);
             //sleep(1);
-            $timeWasted+=1;
+            $timeWasted += 1;
         }
         echo json_encode($msgs);
         //unset($msgs);

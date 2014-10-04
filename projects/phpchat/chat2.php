@@ -44,8 +44,8 @@ if (isset($_POST['msg'])) {
         echo json_encode($msgs);
         unset ($msgs);
     } else {
-        $timeWasted=0;
-        while ($timeWasted<35) {
+        $timeWasted = 0;
+        while ($timeWasted < 35) {
             try {
                 $sql = 'SELECT COUNT(id) FROM messages WHERE id > :latestmsgid';
                 $s = $pdo->prepare($sql);
@@ -57,7 +57,7 @@ if (isset($_POST['msg'])) {
                 exit();
             }
 
-            $msgs=array();
+            $msgs = array();
 
             $cnt = $s->fetch();
             if ($cnt[0] > 0) {
@@ -73,7 +73,7 @@ if (isset($_POST['msg'])) {
                     exit();
                 }
 
-                $result=$s->fetchAll();
+                $result = $s->fetchAll();
 
                 $msgs = array();
                 foreach ($result as $row) {
@@ -85,7 +85,7 @@ if (isset($_POST['msg'])) {
             }
             usleep(800000);
             //sleep(1);
-            $timeWasted+=1;
+            $timeWasted += 1;
         }
         //$msgs=array();
         echo json_encode($msgs);

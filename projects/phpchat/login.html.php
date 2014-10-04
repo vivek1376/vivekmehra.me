@@ -19,14 +19,12 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
         @font-face {
             font-family: 'misoregular';
             src: url('fonts/miso-webfont.eot');
-            src: url('fonts/miso-webfont.eot?#iefix') format('embedded-opentype'),
-            url('fonts/miso-webfont.woff') format('woff'),
-            url('fonts/miso-webfont.ttf') format('truetype'),
-            url('fonts/miso-webfont.svg#misoregular') format('svg');
+            src: url('fonts/miso-webfont.eot?#iefix') format('embedded-opentype'), url('fonts/miso-webfont.woff') format('woff'), url('fonts/miso-webfont.ttf') format('truetype'), url('fonts/miso-webfont.svg#misoregular') format('svg');
             font-weight: normal;
             font-style: normal;
 
         }
+
         html {
             height: 100%;
         }
@@ -48,7 +46,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             border-left: 1px solid #beb3a7;
             border-right: 1px solid #beb3a7;
         }
-        #loginbox{
+
+        #loginbox {
             /*width: 350px;
             height: 260px;
             margin: 0 auto;
@@ -56,7 +55,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             border: 1px solid #eddfca; */
             margin-top: 120px;
         }
-        #title{
+
+        #title {
             display: block;
             padding-top: 20px;
             text-align: center;
@@ -65,7 +65,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             font-size: 56px;
         }
 
-        #uname{
+        #uname {
             box-shadow: none;
             display: block;
             position: relative;
@@ -83,7 +83,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             font-size: 20px;
             padding: 4px;
         }
-        #lbluname{
+
+        #lbluname {
             display: block;
             height: 32px;
             width: 200px;
@@ -101,7 +102,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             background: white;
             font-size: 18px;
         }
-        #pwd{
+
+        #pwd {
             box-shadow: none;
             display: block;
             position: relative;
@@ -118,7 +120,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             font-size: 18px;
             padding: 6px;
         }
-        #lblpwd{
+
+        #lblpwd {
             display: block;
             height: 32px;
             width: 200px;
@@ -135,7 +138,8 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             background: white;
             font-size: 18px;
         }
-        #button{
+
+        #button {
             border: 0;
             background-color: #59cbc7;
             display: block;
@@ -150,50 +154,52 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
             font-family: misoregular;
             font-size: 24px;
 
-
         }
-        #loginbanner{
+
+        #loginbanner {
             text-align: center;
             font-size: 32px;
             color: #786d67;;
         }
-        p#signup{
+
+        p#signup {
             margin-top: 60px;
             text-align: center;
             font-size: 22px;
             color: #a79c93;
 
         }
-        p#signup a:link,a:visited,a:active{
+
+        p#signup a:link, a:visited, a:active {
             text-decoration: none;
             color: #777b86;
         }
     </style>
     <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
+        $(document).ready(function () {
 
             //alert('dfsdf');
-            $('#uname').focus(function(){
-                $('#lbluname').css('visibility','hidden');
-                $(this).css('background-color','white');
+            $('#uname').focus(function () {
+                $('#lbluname').css('visibility', 'hidden');
+                $(this).css('background-color', 'white');
             });
-            $('#uname').blur(function(){
-                if($('#uname').val()==''){
-                    $('#lbluname').css('visibility','visible');
-                    $(this).css('background-color','transparent');
+            $('#uname').blur(function () {
+                if ($('#uname').val() == '') {
+                    $('#lbluname').css('visibility', 'visible');
+                    $(this).css('background-color', 'transparent');
                 }
             });
 
-            $('#pwd').focus(function(){
-                $('#lblpwd').css('visibility','hidden');
-                $(this).css('background-color','white');
+            $('#pwd').focus(function () {
+                $('#lblpwd').css('visibility', 'hidden');
+                $(this).css('background-color', 'white');
             });
 
-            $('#pwd').blur(function(){
-                if($('#pwd').val()==''){
-                    $('#lblpwd').css('visibility','visible');
-                    $(this).css('background-color','transparent');
+            $('#pwd').blur(function () {
+                if ($('#pwd').val() == '') {
+                    $('#lblpwd').css('visibility', 'visible');
+                    $(this).css('background-color', 'transparent');
                 }
             });
         });
@@ -206,9 +212,9 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php'; ?>
 
     <div id="loginbox">
 
-        <p id="loginbanner" >Sign In to Chat</p>
+        <p id="loginbanner">Sign In to Chat</p>
         <?php if (isset($loginError)): ?>
-        <p><?php htmlout($loginError); ?></p>
+            <p><?php htmlout($loginError); ?></p>
         <?php endif; ?>
 
         <form action="" method="post">

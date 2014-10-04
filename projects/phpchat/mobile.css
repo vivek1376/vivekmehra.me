@@ -1,11 +1,12 @@
-div#displaymsg{
+div#displaymsg {
     background-color: blue;
 }
 
-div#container{
+div#container {
     width: 100%;
 }
-.nano{
+
+.nano {
     width: 100%;
 }
 
