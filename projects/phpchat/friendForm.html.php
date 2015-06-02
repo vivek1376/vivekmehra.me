@@ -64,7 +64,7 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
 
     table tr {
         height: 24px;
-        border-bottom: 1px solid #cbc9c3;
+        border-bottom: 1px solid #535b5d;
     }
 
     table td {
@@ -151,9 +151,23 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
         background-color: #363636;
     }
 
+    span#fListMenu {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background-color: #ffd3c2;
+    }
+    a#settings{
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        float: right;
+        background-color: #ffd3c2;
+    }
+
     div#navbar form {
         float: right;
-
     }
 
     div#navbar input[type='submit'] {
@@ -193,6 +207,24 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
         width: 200px;
         height: 200px;
     }
+
+    div#friendList {
+        color: white;
+        background-color: #2b3338;
+        width: 200px;
+        position: absolute;
+        top: 30px;
+        font-size: 6px;
+    }
+
+    div#friendList{
+        display: none;
+    }
+
+    span#fListMenu:hover div#friendList{
+        display: block;
+    }
+
 </style>
 <script type="text/javascript" src="jquery-1.11.1.min.js"></script>
 
@@ -273,6 +305,7 @@ $frHash = sha1($frStr);
 
         function prepareUpload(event) {
             upFiles = event.target.files;
+            console.log(upFiles[0]);//d
             //alert('erwerew');
             document.getElementById('json2').innerHTML = JSON.stringify(upFiles);
         }
@@ -282,18 +315,24 @@ $frHash = sha1($frStr);
 
         // catch the form event and upload the files
         function uploadFiles(event) {
+            // stop default behaviour when submit is clicked
             event.stopPropagation();
             event.preventDefault();
+            //event.defaultp
 
             //show loading icon or something...
 
             //create a formdata object and add the files
             var upData = new FormData();
 
+            upData.append("profileImg", upFiles[0]);//d    correct??
+
+            /*
             $.each(upFiles, function (key, value) {
-                upData.append("profileImg", value);
+                console.log(key);//d
+                upData.append("profileImg", value); // not proper
                 //upData.append(key,value);
-            });
+            });*/
 
             //alert('herer');
 
@@ -328,9 +367,50 @@ $frHash = sha1($frStr);
 </head>
 <body>
 <div id="container">
+    <!--the top navbar-->
     <div id="navbar">
         <p>Hi <span class="uname"> <?php htmlout($_SESSION['username']); ?></span>&nbsp;&excl;</p>
         <?php include 'logout.inc.html.php'; ?>
+        <a id="settings" href="userSettings.html.php">
+
+        </a>
+        <span id="fListMenu">
+            <div id="friendList">
+                <?php if (isset($chatFriends) and !empty($chatFriends)): ?>
+                    <h1>Your Friends</h1>
+                    <table id="frList">
+                        <tr class="top">
+                            <th class="name">Name</th>
+                            <th>status</th>
+                            <th>click to chat</th>
+                        </tr>
+                        <?php foreach ($chatFriends as $friend): ?>
+                            <tr>
+                                <td class="name <?php htmlout($friend['id']) ?>"><?php htmlout($friend['first_name']); ?></td>
+                                <td class="status <?php htmlout($friend['id']) ?>">
+                                    <?php if ($friend['online'] == 1): ?>
+                                        online
+                                    <?php else: ?>
+                                        offline
+                                    <?php endif ?>
+                                </td>
+                                <td class="chat <?php htmlout($friend['id']) ?>">
+                                    <?php if ($friend['online'] == 1): ?>
+                                        <form action="" method="post">
+                                            <input type="hidden" name="chatFriend" value="<?php htmlout($friend['id']) ?>">
+                                            <input type="submit" value="Chat">
+                                        </form>
+                                    <?php endif; ?>
+                                </td>
+                            </tr>
+                        <?php endforeach; ?>
+                    </table>
+                <?php else: ?>
+                    <p>No Friends :(</p>
+                <?php
+                endif; ?>
+            </div>
+        </span>
     </div>
 
     <!-- print friends array in json format-->
@@ -339,38 +419,7 @@ $frHash = sha1($frStr);
     //echo '<br>' . $frHash;
     ?>
 
-    <?php if (isset($chatFriends) and !empty($chatFriends)): ?>
-        <h1>Your Friends</h1>
-        <table id="frList">
-            <tr class="top">
-                <th class="name">Name</th>
-                <th>status</th>
-                <th>click to chat</th>
-            </tr>
-            <?php foreach ($chatFriends as $friend): ?>
-                <tr>
-                    <td class="name <?php htmlout($friend['id']) ?>"><?php htmlout($friend['first_name']); ?></td>
-                    <td class="status <?php htmlout($friend['id']) ?>">
-                        <?php if ($friend['online'] == 1): ?>
-                            online
-                        <?php else: ?>
-                            offline
-                        <?php endif ?>
-                    </td>
-                    <td class="chat <?php htmlout($friend['id']) ?>">
-                        <?php if ($friend['online'] == 1): ?>
-                            <form action="" method="post">
-                                <input type="hidden" name="chatFriend" value="<?php htmlout($friend['id']) ?>">
-                                <input type="submit" value="Chat">
-                            </form>
-                        <?php endif; ?>
-                    </td>
-                </tr>
-            <?php endforeach; ?>
-        </table>
-    <?php else: ?>
-        <p>No Friends :(</p>
-    <?php endif; ?>
+
 
     <!--show friend requests -->
     <?php if (isset($friendRequests) and !empty($friendRequests)): ?>
@@ -402,14 +451,15 @@ $frHash = sha1($frStr);
     <!--image upload-->
     <form id='uploadImg' action="uploadFile.php" method="post" enctype="multipart/form-data">
         <div><label for="profileImg">Select file</label></div>
-        <div><input type="file" id="profileImg" name="profileImg"></div>
+        <div><input id="profileImg" type="file" name="profileImg[]"></div>
         <input type="hidden" name="action" value="uploadImg">
         <input type="hidden" name="MAX_FILE_SIZE" value="204800">
         <input type="submit" value="Submit">
     </form>
+
+    <!-- display image here -->
     <img id="profileImage" width="200" height="200" src="uploads/images/141236745127.0.0.1.png">
 
-    </img>
     <h1>Find new friends</h1>
 
     <form id="findfriend" action="" method="post">

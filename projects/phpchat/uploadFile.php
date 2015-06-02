@@ -14,12 +14,11 @@ include_once $_SERVER['DOCUMENT_ROOT'] . '/includes/helpers.inc.php';
 
 
 if (isset($_GET['action']) and $_GET['action'] == 'uploadImg') {
-
-    //return;
+    // image submitted
 
     $allowedExts = array("jpeg", "jpg", "png");
     $temp = explode(".", $_FILES['profileImg']['name']);
-    $fileExt = end($temp);
+    $fileExt = end($temp); //isolate extension in a string variable
 
     if (!in_array($fileExt, $allowedExts)) {
         $error = 'filename has incorrect extension.';
@@ -27,6 +26,7 @@ if (isset($_GET['action']) and $_GET['action'] == 'uploadImg') {
         exit();
     }
 
+    // is 'type' correct?
     if (preg_match('/^image\/p?jpeg$/i', $_FILES['profileImg']['type']) ||
         preg_match('/^image\/jpe?g$/i', $_FILES['profileImg']['type'])
     )
@@ -46,6 +46,7 @@ if (isset($_GET['action']) and $_GET['action'] == 'uploadImg') {
         exit();
     }
 
+    // create a unique filename
     $filename = 'uploads/images/' . time() . $_SERVER['REMOTE_ADDR'] . $ext;
 
     //move the file
